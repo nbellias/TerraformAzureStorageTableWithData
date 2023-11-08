@@ -27,81 +27,81 @@ variable "table_entities" {
     {
       TableName = "productdeliverymapping"
       Entity = {
-        PartitionKey = "DeliveryType"
-        RowKey       = "0.49"
-        EAN          = "5000128773492"
+        PartitionKey = "SomePartitionKey"
+        RowKey       = "1"
+        EAN          = "1234567893492"
       }
     },
     {
       TableName = "productdeliverymapping"
       Entity = {
-        PartitionKey = "DeliveryType"
-        RowKey       = "0.99"
-        EAN          = "5000128773966"
+        PartitionKey = "SomePartitionKey"
+        RowKey       = "2"
+        EAN          = "1234567893966"
       }
     },
     {
       TableName = "productdeliverymapping"
       Entity = {
-        PartitionKey = "DeliveryType"
-        RowKey       = "1.49"
-        EAN          = "5000128773973"
+        PartitionKey = "SomePartitionKey"
+        RowKey       = "3"
+        EAN          = "1234567893973"
       }
     },
     {
       TableName = "productdeliverymapping"
       Entity = {
-        PartitionKey = "DeliveryType"
-        RowKey       = "1.99"
-        EAN          = "5000128774055"
+        PartitionKey = "SomePartitionKey"
+        RowKey       = "4"
+        EAN          = "1234567894055"
       }
     },
     {
       TableName = "productdeliverymapping"
       Entity = {
-        PartitionKey = "DeliveryType"
-        RowKey       = "2.49"
-        EAN          = "5000128774031"
+        PartitionKey = "SomePartitionKey"
+        RowKey       = "5"
+        EAN          = "1234567894031"
       }
     },
     {
       TableName = "productdeliverymapping"
       Entity = {
-        PartitionKey = "DeliveryType"
-        RowKey       = "2.99"
-        EAN          = "5000128774093"
+        PartitionKey = "SomePartitionKey"
+        RowKey       = "6"
+        EAN          = "1234567894093"
       }
     },
     {
       TableName = "productdeliverymapping"
       Entity = {
-        PartitionKey = "DeliveryType"
-        RowKey       = "3.49"
-        EAN          = "5000128774147"
+        PartitionKey = "SomePartitionKey"
+        RowKey       = "7"
+        EAN          = "1234567894147"
       }
     },
     {
       TableName = "productdeliverymapping"
       Entity = {
-        PartitionKey = "DeliveryType"
-        RowKey       = "3.99"
-        EAN          = "5000128774086"
+        PartitionKey = "SomePartitionKey"
+        RowKey       = "8"
+        EAN          = "1234567894086"
       }
     },
     {
       TableName = "productdeliverymapping"
       Entity = {
-        PartitionKey = "DeliveryType"
-        RowKey       = "4.49"
-        EAN          = "5000128774062"
+        PartitionKey = "SomePartitionKey"
+        RowKey       = "9"
+        EAN          = "1234567894062"
       }
     },
     {
       TableName = "productdeliverymapping"
       Entity = {
-        PartitionKey = "DeliveryType"
-        RowKey       = "4.99"
-        EAN          = "5000128774024"
+        PartitionKey = "SomePartitionKey"
+        RowKey       = "10"
+        EAN          = "1234567894024"
       }
     },
   ]

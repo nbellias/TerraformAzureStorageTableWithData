@@ -20,47 +20,47 @@ variable "seed_data" {
   })
   default = {
     table_name    = "productdeliverymapping"
-    partition_key = "DeliveryType"
+    partition_key = "SomePartitionKey"
     entities = [
       {
-        row_key = "0.49"
-        ean     = "5000128773492"
+        row_key = "1"
+        ean     = "1234567893492"
       },
       {
-        row_key = "0.99"
-        ean     = "5000128773966"
+        row_key = "2"
+        ean     = "1234567893966"
       },
       {
-        row_key = "1.49"
-        ean     = "5000128773973"
+        row_key = "3"
+        ean     = "1234567893973"
       },
       {
-        row_key = "1.99"
-        ean     = "5000128774055"
+        row_key = "4"
+        ean     = "1234567894055"
       },
       {
-        row_key = "2.49"
-        ean     = "5000128774031"
+        row_key = "5"
+        ean     = "1234567894031"
       },
       {
-        row_key = "2.99"
-        ean     = "5000128774093"
+        row_key = "6"
+        ean     = "1234567894093"
       },
       {
-        row_key = "3.49"
-        ean     = "5000128774147"
+        row_key = "7"
+        ean     = "1234567894147"
       },
       {
-        row_key = "3.99"
-        ean     = "5000128774086"
+        row_key = "8"
+        ean     = "1234567894086"
       },
       {
-        row_key = "4.49"
-        ean     = "5000128774062"
+        row_key = "9"
+        ean     = "1234567894062"
       },
       {
-        row_key = "4.99"
-        ean     = "5000128774024"
+        row_key = "10"
+        ean     = "1234567894024"
       }
     ]
   }
