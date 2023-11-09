@@ -9,8 +9,8 @@ terraform {
 
   backend "azurerm" {
     resource_group_name  = "test-playground-dev"
-    storage_account_name = "nikostatestoracc"
-    container_name       = "statescontainer"
+    storage_account_name = "nikobstoracc"
+    container_name       = "terraformstates"
     key                  = "terraform.tfstate"
   }
 

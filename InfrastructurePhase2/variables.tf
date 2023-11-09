@@ -9,7 +9,7 @@ variable "location" {
 ### seed data ###
 
 variable "seed_data" {
-  description = "ETG Storage Table productdeliverymapping Entities"
+  description = "ETG Storage Table nikobstoragetable Entities"
   type = object({
     table_name    = string
     partition_key = string
@@ -19,8 +19,8 @@ variable "seed_data" {
     }))
   })
   default = {
-    table_name    = "productdeliverymapping"
-    partition_key = "SomePartitionKey"
+    table_name    = "nikobstoragetable"
+    partition_key = "NikoBPartionKey"
     entities = [
       {
         row_key = "1"
